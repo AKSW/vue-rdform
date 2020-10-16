@@ -1,0 +1,16 @@
+{
+  "name": "vue-rdform",
+  "version": "0.9.0",
+  "description": "A Vue.js component for RDForm.",
+  "main": "dist/vue-rdform.js",
+  "scripts": {
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+  },
+  "author": "Natanael Arndt",
+  "license": "GPLv2+",
+  "dependencies": {
+    "rdform": "^2.18.1"
+  },
+  "repository": { ... },
+  "devDependencies": { ... }
+}
