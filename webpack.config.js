@@ -39,13 +39,7 @@ var config = {
   ]
 };
 
-filename: 'vue-rdform.js'
-entry: path.resolve(__dirname + '/src/rdform.vue'),
-
-
 module.exports = [
-
-  // Config 1: For browser environment
   merge(config, {
     entry: path.resolve(__dirname + '/src/plugin.js'),
     output: {
@@ -54,8 +48,6 @@ module.exports = [
       library: 'RDForm'
     }
   }),
-
-  // Config 2: For Node-based development environments
   merge(config, {
     entry: path.resolve(__dirname + '/src/rdform.vue'),
     output: {
