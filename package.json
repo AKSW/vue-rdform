@@ -9,8 +9,25 @@
   "author": "Natanael Arndt",
   "license": "GPLv2+",
   "dependencies": {
-    "rdform": "^2.18.1"
+    "@donsi/rdform": "git+https://github.com/simeonackermann/RDForm.git#feature-shacl",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1",
+    "jsonld": "^1.8.1"
   },
-  "repository": { ... },
-  "devDependencies": { ... }
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "babel-runtime": "^6.9.2",
+    "rimraf": "^2.6.1",
+    "vue": "^2.2.1",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^11.1.4",
+    "vue-style-loader": "^2.0.3",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "1.13.1",
+    "webpack-merge": "^4.1.0"
+  }
 }
